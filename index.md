@@ -439,7 +439,12 @@ before casting their lines.
 ### Technologies: Kotlin, MVVM, Room DB, ArcGIS Maps, Retrofit, Coroutines, Google Maps API, Push Notifications, Flows
 
 Screenshots:
-<p align="center"> <img src="https://drive.google.com/uc?export=view&id=1JVzqa05oXKcceSGQBPubupKqoHX66-nN" width="250" height="500" />&nbsp;&nbsp; <img src="https://drive.google.com/uc?export=view&id=17dW91tzZ_cXnnyhb2F5o9by3GO2-3Tbj" width="250" height="500" />&nbsp;&nbsp;  <img src="https://drive.google.com/uc?export=view&id=1cjUg8OoYRiQYY6fOnZl-t8Ac7ayGn87F" width="250" height="500" /> </p>
+<p align="center"> 
+  <img src="assets/splash_fish_the_break.png" width="250" height="500" />&nbsp;&nbsp;
+  <img src="assets/onboard_fish_the_break.png" width="250" height="500" />&nbsp;&nbsp;  
+  <img src="assets/home_screen.png" width="250" height="500" />
+</p>
+
 
 ---
 
@@ -484,7 +489,12 @@ journey.
 ### Technologies: Kotlin, Jetpack Compose, MVVM, Hilt, Google Fit API, ExoPlayer, WebSockets, Retrofit, Firebase Cloud Messaging, Kotlin Flows
 
 Screenshots:
-<p align="center"> <img src="https://drive.google.com/uc?export=view&id=19ZQYGnVoPsol3PKLikSsGfRJc8VEtz6G" width="250" height="500" />&nbsp;&nbsp; <img src="https://drive.google.com/uc?export=view&id=1jCO4gkvwlmJ3sWnBB4utF-089RRCWYlU" width="250" height="500" />&nbsp;&nbsp;  <img src="https://drive.google.com/uc?export=view&id=1iqV26HuYSNh-ifkoScrsWoq58nKFxAv6" width="250" height="500" /> </p>
+
+<p align="center"> 
+  <img src="assets/get_started.png" width="250" height="500" />&nbsp;&nbsp;
+  <img src="assets/workout.png" width="250" height="500" />&nbsp;&nbsp;  
+  <img src="assets/single_workout.png" width="250" height="500" />
+</p>
 
 ---
 
@@ -527,7 +537,12 @@ personalized recommendations — all within a multi-language, user-friendly envi
 ### Technologies: Kotlin, MVVM, Firebase, Retrofit, Stripe SDK, Google Maps API, WebSockets, Hilt, Localization
 
 Screenshots:
-<p align="center"> <img src="https://drive.google.com/uc?export=view&id=1RgCoysY92LS1wlAQs0ibFzg0x0ow0VqY" width="250" height="500" />&nbsp;&nbsp; <img src="https://drive.google.com/uc?export=view&id=1UlHVwiWQwgepajedTyv11wLc3EijnlBI" width="250" height="500" />&nbsp;&nbsp;  <img src="https://drive.google.com/uc?export=view&id=13vr_TDjb7z0JVhurIhUkwa2qabotw0Vo" width="250" height="500" /> </p>
+
+<p align="center"> 
+  <img src="assets/splash.png" width="250" height="500" />&nbsp;&nbsp;
+  <img src="assets/home.png" width="250" height="500" />&nbsp;&nbsp;  
+  <img src="assets/out_of_stock.png" width="250" height="500" />
+</p>
 
 ---
 
