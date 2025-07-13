@@ -98,7 +98,7 @@ manage, and transact their Krytron tokens securely — all from one powerful mob
 Screenshots:
 
 <p align="center"> 
-  <img src="assets/Signup.png" width="250" height="500" />&nbsp;&nbsp;
+  <img src="assets/signup.png" width="250" height="500" />&nbsp;&nbsp;
   <img src="assets/Main.png" width="250" height="500" />&nbsp;&nbsp;  
   <img src="assets/Restore Wallet.png" width="250" height="500" />
 </p>
