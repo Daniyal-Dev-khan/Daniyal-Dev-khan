@@ -3,9 +3,9 @@ title: Daniyal Ahmad Khan
 layout: default
 ---
 
-## Android Developer
+## Senior Android Developer
 
-### Hello, I am an Android Developer with 4+ years of experience in crafting mobile solutions using Kotlin, Jetpack Compose, MVVM, and modern Android development practices. I’m passionate about writing clean code, building scalable apps, and continuously learning new tools, technologies, and best practices.
+### I'm an Android Developer with over 4 years of experience turning product ideas into smooth, scalable mobile apps. I specialize in Kotlin, Jetpack Compose, and clean architecture (MVVM), and take pride in writing maintainable code that meets real user needs. Whether collaborating in a team or leading development, I’m always learning, sharing, and pushing for technical excellence
 
 <a href="mailto:daniyal.khan.dev@gmail.com"><img src="https://img.shields.io/badge/Email-Daniyal_Khan-8056d5.svg?style=for-the-badge&logo=gmail&logoColor=white"></a>
 &nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/daniyal-ahmad-khan-009b33148" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Daniyal-blue.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
@@ -36,6 +36,7 @@ special offers, build shopping lists, and explore curated recipes — all from t
 
 ### My Contributions:
 
+- Currently working new points system feature.
 - Integrated the **Webshop** module for online browsing and purchasing.
 - Implemented complete **Add to Cart flow** with quantity management and seamless UX.
 - Cleaned the existing codebase by fixing **legacy bugs** and refactoring for maintainability.
@@ -84,12 +85,12 @@ manage, and transact their Krytron tokens securely — all from one powerful mob
 
 ### My Contributions:
 
-- Implemented Integrated Neem integration in app.
-- Built **send/request flow**, integrated Neem API for transaction processing.
-- Created **biometric login system** for a secure, passwordless experience.
-- Added **PDF export feature** for wallet transaction summaries.
-- Architected the **hybrid Kotlin + React Native** system for platform-specific wallet creation and
-  encryption.
+- Gained deep understanding of the end-to-end wallet flow, from mnemonic generation to transaction handling and statement generation.
+- Integrated updated Neem APIs to handle Buy/Sell Krytron transactions smoothly with secure backend interactions.
+- Added Urdu language support, improving accessibility for local users.
+- Performed detailed code maintenance, including bug fixes, refactoring, and performance improvements.
+- Implemented unit tests to ensure correctness and stability of the transaction modules.
+- Maintained and improved the Kotlin + React Native codebase while aligning it with modern architecture standards.
 
 ---
 
@@ -489,7 +490,6 @@ journey.
 ### Technologies: Kotlin, Jetpack Compose, MVVM, Hilt, Google Fit API, ExoPlayer, WebSockets, Retrofit, Firebase Cloud Messaging, Kotlin Flows
 
 Screenshots:
-
 <p align="center"> 
   <img src="assets/get_started.png" width="250" height="500" />&nbsp;&nbsp;
   <img src="assets/workout.png" width="250" height="500" />&nbsp;&nbsp;  
@@ -553,7 +553,7 @@ Screenshots:
 - **UI**: Jetpack Compose, XML
 - **Libraries**: Room, Hilt, Retrofit, ExoPlayer, Coroutines, Flows
 - **APIs & SDKs**: Google Fit, Firebase, Stripe, Google Maps, ArcGIS, WebSockets
-- **Tools**: Android Studio, Postman, Git, GitHub
+- **Tools**: Android Studio, Postman, Git, GitHub, Bitbucket, Gitlab, VS code
 
 ---
 
