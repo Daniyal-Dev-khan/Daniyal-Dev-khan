@@ -54,6 +54,58 @@ Screenshots:
 
 ---
 
+# Lemvigh Müller – Unmanned Smart Store App
+
+What if you could walk into a store, pick up what you need, and walk out — no lines, no checkout?
+
+That’s exactly the experience we built with the **Lemvigh Müller** app — a fully autonomous shopping
+solution for Denmark’s largest technical wholesaler. This smart-store setup uses real-time
+communication, camera monitoring, and seamless integration between mobile, web, and backend to
+deliver a checkout-free shopping experience.
+
+> **Lemvigh-Müller** is Denmark’s largest wholesaler of steel and technical installations with over
+> 550,000 products and an annual turnover of 7.9+ billion DKK.
+
+<a href="https://play.google.com/store/apps/details?id=com.lemvigh.muller&pcampaignid=web_share">
+  <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="80px"/>
+</a>
+
+### Features:
+
+- **User Onboarding**: Danish users can sign in using **MitID**, while others scan passports via *
+  *OCR**.
+- **NFT Scan for Entry**: Users must scan an **NFT** to access the physical store.
+- **Real-Time Cart Updates**: Items are added automatically to the cart as users pick them off the
+  shelf, powered by **camera detection** and **sockets**.
+- **Image Detection**: Integrated with camera systems to recognize picked items from store shelves.
+- **Checkout via Portal**: After shopping, users complete payment via a connected web portal.
+- **Multilingual Support**: Available in **Danish and English**.
+- **Biometric login Support** User can simply login with his finger print scan.
+
+---
+
+### My Contributions:
+
+- Designed the **entire app architecture** to support real-time cart updates and seamless backend
+  sync.
+- Integrated **socket communication** for live cart syncing based on camera triggers.
+- Implemented **OCR passport scanning** and **MitID login** for identity verification.
+- Coordinated camera integration for **real-time product detection**.
+- Built the **NFT scan flow** for secure store access.
+- Biometric system for login
+- Added **multi-language support** for Danish and English users.
+
+---
+
+### Technologies: Kotlin, MVVM, Hilt, WebSockets, OCR, CameraX, REST APIs, Clean Architecture, Firebase
+
+---
+
+Screenshots:
+<p align="center"> <img src="https://lh3.googleusercontent.com/L_9ci6sSQ7zdpgOilI8z0fildinal4_QcBOJMZP1ySghomCOp77sKYJb1SXxdkL9XhY" width="250" height="500" />&nbsp;&nbsp; <img src="https://lh3.googleusercontent.com/WF98jaR7RPIbT6uaRIXj_p_Hm9xxtNM3ZVaXuLa4SjgUGc8KIgp8hDP-hKYu79qxyWrx" width="250" height="500" />&nbsp;&nbsp;  <img src="https://lh3.googleusercontent.com/m1mYWT2MVHi4TKgDYkJ4GjxoIlqmbFhKsWG-Hfs9Z-lP7TGTDrR9MXO36eNKfc44_co" width="250" height="500" /> </p>
+
+---
+
 # Krytron – Blockchain-Based Digital Wallet App
 
 Krytron is a secure and user-friendly cryptocurrency wallet app, designed for managing digital
@@ -85,12 +137,16 @@ manage, and transact their Krytron tokens securely — all from one powerful mob
 
 ### My Contributions:
 
-- Gained deep understanding of the end-to-end wallet flow, from mnemonic generation to transaction handling and statement generation.
-- Integrated updated Neem APIs to handle Buy/Sell Krytron transactions smoothly with secure backend interactions.
+- Gained deep understanding of the end-to-end wallet flow, from mnemonic generation to transaction
+  handling and statement generation.
+- Integrated updated Neem APIs to handle Buy/Sell Krytron transactions smoothly with secure backend
+  interactions.
 - Added Urdu language support, improving accessibility for local users.
-- Performed detailed code maintenance, including bug fixes, refactoring, and performance improvements.
+- Performed detailed code maintenance, including bug fixes, refactoring, and performance
+  improvements.
 - Implemented unit tests to ensure correctness and stability of the transaction modules.
-- Maintained and improved the Kotlin + React Native codebase while aligning it with modern architecture standards.
+- Maintained and improved the Kotlin + React Native codebase while aligning it with modern
+  architecture standards.
 
 ---
 
@@ -197,56 +253,6 @@ visitors (*Patron*) and one for venue staff (*Guard*).
 
 Screenshots:
 <p align="center"> <img src="https://lh3.googleusercontent.com/jR6s2QOKgoA2lw2veWwyDUPu9yQhMOrSSm_ffK0xsM_G8wl7cMhJ49-XTxsvKG0Vmw" width="250" height="500" />&nbsp;&nbsp; <img src="https://lh3.googleusercontent.com/LCGul50EOabVtoyF_BDvhD1wY_1XYq8kJl6XLX-HPMBFU8-Qonu2fjD7ejiKCefR1kM5" width="250" height="500" />&nbsp;&nbsp; <img src="https://lh3.googleusercontent.com/vp5nJJpzYnZI5RsDjJS8SbX27PWNI5Xp6VtRARke6dJizH2OLwm2xVuVaC9MNivUBXo" width="250" height="500" /> </p>
-
----
-
-# Lemvigh Müller – Unmanned Smart Store App
-
-What if you could walk into a store, pick up what you need, and walk out — no lines, no checkout?
-
-That’s exactly the experience we built with the **Lemvigh Müller** app — a fully autonomous shopping
-solution for Denmark’s largest technical wholesaler. This smart-store setup uses real-time
-communication, camera monitoring, and seamless integration between mobile, web, and backend to
-deliver a checkout-free shopping experience.
-
-> **Lemvigh-Müller** is Denmark’s largest wholesaler of steel and technical installations with over
-> 550,000 products and an annual turnover of 7.9+ billion DKK.
-
-> **Note**: This app is currently under development and will be live soon.
-
-### Features:
-
-- **User Onboarding**: Danish users can sign in using **MitID**, while others scan passports via *
-  *OCR**.
-- **NFT Scan for Entry**: Users must scan an **NFT** to access the physical store.
-- **Real-Time Cart Updates**: Items are added automatically to the cart as users pick them off the
-  shelf, powered by **camera detection** and **sockets**.
-- **Image Detection**: Integrated with camera systems to recognize picked items from store shelves.
-- **Checkout via Portal**: After shopping, users complete payment via a connected web portal.
-- **Multilingual Support**: Available in **Danish and English**.
-- **Biometric login Support** User can simply login with his finger print scan.
-
----
-
-### My Contributions:
-
-- Designed the **entire app architecture** to support real-time cart updates and seamless backend
-  sync.
-- Integrated **socket communication** for live cart syncing based on camera triggers.
-- Implemented **OCR passport scanning** and **MitID login** for identity verification.
-- Coordinated camera integration for **real-time product detection**.
-- Built the **NFT scan flow** for secure store access.
-- Biometric system for login
-- Added **multi-language support** for Danish and English users.
-
----
-
-### Technologies: Kotlin, MVVM, Hilt, WebSockets, OCR, CameraX, REST APIs, Clean Architecture, Firebase
-
----
-
-Screenshots:
-<p align="center"> <img src="https://lh3.googleusercontent.com/L_9ci6sSQ7zdpgOilI8z0fildinal4_QcBOJMZP1ySghomCOp77sKYJb1SXxdkL9XhY" width="250" height="500" />&nbsp;&nbsp; <img src="https://lh3.googleusercontent.com/WF98jaR7RPIbT6uaRIXj_p_Hm9xxtNM3ZVaXuLa4SjgUGc8KIgp8hDP-hKYu79qxyWrx" width="250" height="500" />&nbsp;&nbsp;  <img src="https://lh3.googleusercontent.com/m1mYWT2MVHi4TKgDYkJ4GjxoIlqmbFhKsWG-Hfs9Z-lP7TGTDrR9MXO36eNKfc44_co" width="250" height="500" /> </p>
 
 ---
 
