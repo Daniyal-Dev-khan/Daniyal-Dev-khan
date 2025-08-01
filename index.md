@@ -113,13 +113,22 @@ such as casinos and nightclubs. It ensures crowd regulation and visitor accounta
 QR-based check-ins, automatic tracking, and behavioral monitoring — with a dedicated app for
 visitors (*Patron*) and one for venue staff (*Guard*).
 
-<a href='https://play.google.com/store/apps/details?id=com.sa.safetipatron' target='_blank'>
-  <img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height='80px' style='margin-right: 10px;'/>
-</a>
+<div style="display: flex; gap: 40px; align-items: center; flex-wrap: wrap; justify-content: center;">
+  <div align="center">
+    <strong>Safeti Patron App</strong><br/>
+    <a href="https://play.google.com/store/apps/details?id=com.sa.safetipatron" target="_blank">
+      <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="80px"/>
+    </a>
+  </div>
 
-<a href='https://play.google.com/store/apps/details?id=com.sa.safeti.guard' target='_blank'>
-  <img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height='80px'/>
-</a>
+  <div align="center">
+    <strong>Safeti Guard App</strong><br/>
+    <a href="https://play.google.com/store/apps/details?id=com.sa.safeti.guard" target="_blank">
+      <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="80px"/>
+    </a>
+  </div>
+
+</div>
 
 > Built for deployment across venues in Denmark, with national ID (MitID) and passport
 > integration.  
