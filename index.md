@@ -106,6 +106,70 @@ Screenshots:
 
 ---
 
+# Safeti – Venue Safety & Visitor Tracking System
+
+Safeti is a dual-app safety platform designed to track and manage visitors at high-traffic venues
+such as casinos and nightclubs. It ensures crowd regulation and visitor accountability by enabling
+QR-based check-ins, automatic tracking, and behavioral monitoring — with a dedicated app for
+visitors (*Patron*) and one for venue staff (*Guard*).
+
+<a href='https://play.google.com/store/apps/details?id=com.sa.safetipatron' target='_blank'>
+  <img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height='80px' style='margin-right: 10px;'/>
+</a>
+
+<a href='https://play.google.com/store/apps/details?id=com.sa.safeti.guard' target='_blank'>
+  <img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height='80px'/>
+</a>
+
+> Built for deployment across venues in Denmark, with national ID (MitID) and passport
+> integration.  
+
+---
+
+### Patron App – Visitor Interface
+
+- **MitID & Passport Login** – Secure onboarding using Danish **MitID** or **OCR-based passport
+  scanning**.
+- **Location-Based Venue Discovery** – Shows nearby venues by user location, with adjustable search
+  radius.
+- **Venue Detail with QR Code** – Generates a daily venue-specific QR for check-in (expires after 24
+  hours).
+- **Smart Check-In/Out**:
+    - Check-in via **QR scan**
+    - Auto check-out if user exits venue radius (using **sockets**)
+- **Visit History** – Track list of previously visited venues with timestamps.
+- **Ban List Viewer** – View venues where the user has been banned and who issued the ban.
+
+---
+
+### Guard App – Venue Admin Interface
+
+- **Login Screen** – Restricted access for verified guards only.
+- **Dashboard Charts** – Real-time insights of today’s check-ins/check-outs.
+- **QR Scanner** – Scan patron QR codes for instant check-in validation.
+- **Visitor Logs** – Full visit history with timestamps for each visitor.
+- **Ban Users** – Manually ban patrons based on venue behavior.
+
+---
+
+### My Contributions:
+
+- Developed both **Patron** and **Guard** Android apps.
+- Designed and implemented the **check-in/out system** using QR + location + WebSockets.
+- Built **dynamic venue discovery UI** with radius filtering.
+- Integrated **OCR + MitID** authentication flow.
+- Developed **real-time charts and analytics** for venue guards.
+- Managed **visit and ban history modules** on both sides.
+
+---
+
+### Technologies: Kotlin, MVVM, Retrofit, WebSockets, Google Maps API, Firebase, Hilt, Coroutines, OCR, Chart Libraries, Location APIs
+
+Screenshots:
+<p align="center"> <img src="https://lh3.googleusercontent.com/jR6s2QOKgoA2lw2veWwyDUPu9yQhMOrSSm_ffK0xsM_G8wl7cMhJ49-XTxsvKG0Vmw" width="250" height="500" />&nbsp;&nbsp; <img src="https://lh3.googleusercontent.com/LCGul50EOabVtoyF_BDvhD1wY_1XYq8kJl6XLX-HPMBFU8-Qonu2fjD7ejiKCefR1kM5" width="250" height="500" />&nbsp;&nbsp; <img src="https://lh3.googleusercontent.com/vp5nJJpzYnZI5RsDjJS8SbX27PWNI5Xp6VtRARke6dJizH2OLwm2xVuVaC9MNivUBXo" width="250" height="500" /> </p>
+
+---
+
 # Krytron – Blockchain-Based Digital Wallet App
 
 Krytron is a secure and user-friendly cryptocurrency wallet app, designed for managing digital
@@ -196,63 +260,6 @@ Currently in closed testing phase and will be live on the Play Store soon.
 
 Screenshots:
 <p align="center"> <img src="https://play-lh.googleusercontent.com/eDOMiUCFmeyE0I-omv0XLY7BMYbGIAMB6sXXpxeTy16MZAXTyMowGENTai6V_QWxmQ=w1052-h592-rw" width="250" height="500" />&nbsp;&nbsp; <img src="https://play-lh.googleusercontent.com/eDOMiUCFmeyE0I-omv0XLY7BMYbGIAMB6sXXpxeTy16MZAXTyMowGENTai6V_QWxmQ=w1052-h592-rw" width="250" height="500" />&nbsp;&nbsp;  <img src="https://play-lh.googleusercontent.com/3pM8P0QODh9qffg09XdWxRgvYMCP6ZKibjAIhRqk87LHoQbZFaJIGn4DfQhvAojKvKM=w1052-h592-rw" width="250" height="500" /> </p>
-
----
-
-# Safeti – Venue Safety & Visitor Tracking System
-
-Safeti is a dual-app safety platform designed to track and manage visitors at high-traffic venues
-such as casinos and nightclubs. It ensures crowd regulation and visitor accountability by enabling
-QR-based check-ins, automatic tracking, and behavioral monitoring — with a dedicated app for
-visitors (*Patron*) and one for venue staff (*Guard*).
-
-> Built for deployment across venues in Denmark, with national ID (MitID) and passport
-> integration.  
-> **This app is currently in development and will be available on the Play Store soon.**
-
----
-
-### Patron App – Visitor Interface
-
-- **MitID & Passport Login** – Secure onboarding using Danish **MitID** or **OCR-based passport
-  scanning**.
-- **Location-Based Venue Discovery** – Shows nearby venues by user location, with adjustable search
-  radius.
-- **Venue Detail with QR Code** – Generates a daily venue-specific QR for check-in (expires after 24
-  hours).
-- **Smart Check-In/Out**:
-    - Check-in via **QR scan**
-    - Auto check-out if user exits venue radius (using **sockets**)
-- **Visit History** – Track list of previously visited venues with timestamps.
-- **Ban List Viewer** – View venues where the user has been banned and who issued the ban.
-
----
-
-### Guard App – Venue Admin Interface
-
-- **Login Screen** – Restricted access for verified guards only.
-- **Dashboard Charts** – Real-time insights of today’s check-ins/check-outs.
-- **QR Scanner** – Scan patron QR codes for instant check-in validation.
-- **Visitor Logs** – Full visit history with timestamps for each visitor.
-- **Ban Users** – Manually ban patrons based on venue behavior.
-
----
-
-### My Contributions:
-
-- Developed both **Patron** and **Guard** Android apps.
-- Designed and implemented the **check-in/out system** using QR + location + WebSockets.
-- Built **dynamic venue discovery UI** with radius filtering.
-- Integrated **OCR + MitID** authentication flow.
-- Developed **real-time charts and analytics** for venue guards.
-- Managed **visit and ban history modules** on both sides.
-
----
-
-### Technologies: Kotlin, MVVM, Retrofit, WebSockets, Google Maps API, Firebase, Hilt, Coroutines, OCR, Chart Libraries, Location APIs
-
-Screenshots:
-<p align="center"> <img src="https://lh3.googleusercontent.com/jR6s2QOKgoA2lw2veWwyDUPu9yQhMOrSSm_ffK0xsM_G8wl7cMhJ49-XTxsvKG0Vmw" width="250" height="500" />&nbsp;&nbsp; <img src="https://lh3.googleusercontent.com/LCGul50EOabVtoyF_BDvhD1wY_1XYq8kJl6XLX-HPMBFU8-Qonu2fjD7ejiKCefR1kM5" width="250" height="500" />&nbsp;&nbsp; <img src="https://lh3.googleusercontent.com/vp5nJJpzYnZI5RsDjJS8SbX27PWNI5Xp6VtRARke6dJizH2OLwm2xVuVaC9MNivUBXo" width="250" height="500" /> </p>
 
 ---
 
