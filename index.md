@@ -113,29 +113,12 @@ such as casinos and nightclubs. It ensures crowd regulation and visitor accounta
 QR-based check-ins, automatic tracking, and behavioral monitoring — with a dedicated app for
 visitors (*Patron*) and one for venue staff (*Guard*).
 
-<div style="display: flex; gap: 40px; align-items: center; flex-wrap: wrap; justify-content: center;">
-  <div align="center">
-    <strong>Safeti Patron App</strong><br/>
-    <a href="https://play.google.com/store/apps/details?id=com.sa.safetipatron" target="_blank">
-      <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="80px"/>
-    </a>
-  </div>
-
-  <div align="center">
-    <strong>Safeti Guard App</strong><br/>
-    <a href="https://play.google.com/store/apps/details?id=com.sa.safeti.guard" target="_blank">
-      <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="80px"/>
-    </a>
-  </div>
-
-</div>
-
 > Built for deployment across venues in Denmark, with national ID (MitID) and passport
 > integration.  
 
 ---
 
-### Patron App – Visitor Interface
+### Safeti Patron App – Visitor Interface
 
 - **MitID & Passport Login** – Secure onboarding using Danish **MitID** or **OCR-based passport
   scanning**.
@@ -149,15 +132,23 @@ visitors (*Patron*) and one for venue staff (*Guard*).
 - **Visit History** – Track list of previously visited venues with timestamps.
 - **Ban List Viewer** – View venues where the user has been banned and who issued the ban.
 
+<a href='https://play.google.com/store/apps/details?id=com.sa.safetipatron' target='_blank'>
+  <img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height='80px' style='margin-right: 10px;'/>
+</a>
+
 ---
 
-### Guard App – Venue Admin Interface
+### Safeti Guard App – Venue Admin Interface
 
 - **Login Screen** – Restricted access for verified guards only.
 - **Dashboard Charts** – Real-time insights of today’s check-ins/check-outs.
 - **QR Scanner** – Scan patron QR codes for instant check-in validation.
 - **Visitor Logs** – Full visit history with timestamps for each visitor.
 - **Ban Users** – Manually ban patrons based on venue behavior.
+
+<a href='https://play.google.com/store/apps/details?id=com.sa.safeti.guard' target='_blank'>
+  <img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height='80px'/>
+</a>
 
 ---
 
