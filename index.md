@@ -172,9 +172,9 @@ Screenshots:
 
 # Unlimit Key – Retail Access & Store Companion App
 
-Unlimit Key is a next-generation retail access app that helps users seamlessly discover shops, check
-details like timing & location, and even unlock store doors digitally. The app eliminates the need
-for physical keys or cards while enhancing convenience and security for both users and shop owners.
+Unlimit Key is a smart retail access app that allows users to discover nearby shops, check timings,
+get navigation, and even unlock store doors digitally removing the need for physical keys or cards.
+The app is actively used by 1000+ users in Denmark.
 
 <a href="https://play.google.com/store/apps/details?id=com.unlimit.unlimit.key&hl=en">
 <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="80px"/>
@@ -184,7 +184,8 @@ for physical keys or cards while enhancing convenience and security for both use
 
 - **User KYC**: Danish users can sign in using **MitID**, while others scan passports via *
   *OCR**.
-- **NFT Scan for Entry**: Users must scan an **NFT** to access the physical store without physical keys/cards.
+- **NFT Scan for Entry**: Users must scan an **NFT** to access the physical store without physical
+  keys/cards.
 - **Search by Name & Zip Code**: Locate stores using keywords or postal codes.
 - **Shop Open/Close Timing**: Stay updated on operating hours of your favorite shops.
 - **Shop Address & Navigation**: Integrated with Google Maps for easy navigation.
