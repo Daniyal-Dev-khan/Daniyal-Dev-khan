@@ -114,7 +114,7 @@ QR-based check-ins, automatic tracking, and behavioral monitoring — with a ded
 visitors (*Patron*) and one for venue staff (*Guard*).
 
 > Built for deployment across venues in Denmark, with national ID (MitID) and passport
-> integration.  
+> integration.
 
 ---
 
@@ -167,6 +167,46 @@ visitors (*Patron*) and one for venue staff (*Guard*).
 
 Screenshots:
 <p align="center"> <img src="https://lh3.googleusercontent.com/jR6s2QOKgoA2lw2veWwyDUPu9yQhMOrSSm_ffK0xsM_G8wl7cMhJ49-XTxsvKG0Vmw" width="250" height="500" />&nbsp;&nbsp; <img src="https://lh3.googleusercontent.com/LCGul50EOabVtoyF_BDvhD1wY_1XYq8kJl6XLX-HPMBFU8-Qonu2fjD7ejiKCefR1kM5" width="250" height="500" />&nbsp;&nbsp; <img src="https://lh3.googleusercontent.com/vp5nJJpzYnZI5RsDjJS8SbX27PWNI5Xp6VtRARke6dJizH2OLwm2xVuVaC9MNivUBXo" width="250" height="500" /> </p>
+
+---
+
+# AllahuAlam – Complete Islamic Lifestyle App
+
+AllahuAlam is a comprehensive Islamic mobile application built to support Muslims in fulfilling
+their daily religious duties with ease and spiritual focus. It features a clean, intuitive interface
+with highly practical tools such as Qibla direction, prayer tracking, Quran recitation, and more —
+making it an all-in-one companion for every practicing Muslim.
+
+Currently in closed testing phase and will be live on the Play Store soon.
+
+<a href="https://play.google.com/store/apps/details?id=com.sa.allahualam&hl=en&pcampaignid=web_share">
+  <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="80px"/>
+</a>
+
+### Features:
+
+- Qibla Direction – Precise compass-based direction using GPS, with a 360° panoramic view.
+- Accurate Prayer Timings – Auto-calculated based on location, with multiple calculation methods.
+- Prayer Reminders – Push notifications before each Salah to stay consistent.
+- Prayer Tracker – Log and monitor your Salah performance to build habit and reflection.
+- Quran Recitation & Translation – Listen or read the Holy Quran with multi-language translation (
+  Urdu, English, and more).
+- Islamic ChatBot – Ask Islamic questions and get context-aware answers instantly.
+- Elegant UI – A simple, distraction-free design focused on clarity and spiritual ease.
+
+### My Contributions:
+
+- Built the entire application solo, from scratch.
+- Implemented full clean architecture with domain, data, and UI separation.
+- Integrated panoramic Qibla view using sensors and AR-like compass.
+- Developed Islamic ChatBot using local logic and backend NLP APIs.
+- Integrated Quran recitations, multi-language translations, and dynamic prayer calculations.
+- Managed real-time notifications and background services using WorkManager and Firebase.
+
+### Technologies: Kotlin, MVVM, Clean Architecture, Firebase, Retrofit, Hilt, XML UI, Google Play Services
+
+Screenshots:
+<p align="center"> <img src="https://play-lh.googleusercontent.com/eDOMiUCFmeyE0I-omv0XLY7BMYbGIAMB6sXXpxeTy16MZAXTyMowGENTai6V_QWxmQ=w1052-h592-rw" width="250" height="500" />&nbsp;&nbsp; <img src="https://play-lh.googleusercontent.com/eDOMiUCFmeyE0I-omv0XLY7BMYbGIAMB6sXXpxeTy16MZAXTyMowGENTai6V_QWxmQ=w1052-h592-rw" width="250" height="500" />&nbsp;&nbsp;  <img src="https://play-lh.googleusercontent.com/3pM8P0QODh9qffg09XdWxRgvYMCP6ZKibjAIhRqk87LHoQbZFaJIGn4DfQhvAojKvKM=w1052-h592-rw" width="250" height="500" /> </p>
 
 ---
 
@@ -224,42 +264,6 @@ Screenshots:
   <img src="assets/Restore Wallet.png" width="250" height="500" />
 </p>
 
-
----
-
-# AllahuAlam – Complete Islamic Lifestyle App
-
-AllahuAlam is a comprehensive Islamic mobile application built to support Muslims in fulfilling
-their daily religious duties with ease and spiritual focus. It features a clean, intuitive interface
-with highly practical tools such as Qibla direction, prayer tracking, Quran recitation, and more —
-making it an all-in-one companion for every practicing Muslim.
-
-Currently in closed testing phase and will be live on the Play Store soon.
-
-### Features:
-
-- Qibla Direction – Precise compass-based direction using GPS, with a 360° panoramic view.
-- Accurate Prayer Timings – Auto-calculated based on location, with multiple calculation methods.
-- Prayer Reminders – Push notifications before each Salah to stay consistent.
-- Prayer Tracker – Log and monitor your Salah performance to build habit and reflection.
-- Quran Recitation & Translation – Listen or read the Holy Quran with multi-language translation (
-  Urdu, English, and more).
-- Islamic ChatBot – Ask Islamic questions and get context-aware answers instantly.
-- Elegant UI – A simple, distraction-free design focused on clarity and spiritual ease.
-
-### My Contributions:
-
-- Built the entire application solo, from scratch.
-- Implemented full clean architecture with domain, data, and UI separation.
-- Integrated panoramic Qibla view using sensors and AR-like compass.
-- Developed Islamic ChatBot using local logic and backend NLP APIs.
-- Integrated Quran recitations, multi-language translations, and dynamic prayer calculations.
-- Managed real-time notifications and background services using WorkManager and Firebase.
-
-### Technologies: Kotlin, MVVM, Clean Architecture, Firebase, Retrofit, Hilt, XML UI, Google Play Services
-
-Screenshots:
-<p align="center"> <img src="https://play-lh.googleusercontent.com/eDOMiUCFmeyE0I-omv0XLY7BMYbGIAMB6sXXpxeTy16MZAXTyMowGENTai6V_QWxmQ=w1052-h592-rw" width="250" height="500" />&nbsp;&nbsp; <img src="https://play-lh.googleusercontent.com/eDOMiUCFmeyE0I-omv0XLY7BMYbGIAMB6sXXpxeTy16MZAXTyMowGENTai6V_QWxmQ=w1052-h592-rw" width="250" height="500" />&nbsp;&nbsp;  <img src="https://play-lh.googleusercontent.com/3pM8P0QODh9qffg09XdWxRgvYMCP6ZKibjAIhRqk87LHoQbZFaJIGn4DfQhvAojKvKM=w1052-h592-rw" width="250" height="500" /> </p>
 
 ---
 
