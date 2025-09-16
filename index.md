@@ -170,6 +170,50 @@ Screenshots:
 
 ---
 
+# Unlimit Key – Retail Access & Store Companion App
+
+Unlimit Key is a next-generation retail access app that helps users seamlessly discover shops, check
+details like timing & location, and even unlock store doors digitally. The app eliminates the need
+for physical keys or cards while enhancing convenience and security for both users and shop owners.
+
+<a href="https://play.google.com/store/apps/details?id=com.unlimit.unlimit.key&hl=en">
+<img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="80px"/>
+</a>
+
+### Features:
+
+- **User KYC**: Danish users can sign in using **MitID**, while others scan passports via *
+  *OCR**.
+- **NFT Scan for Entry**: Users must scan an **NFT** to access the physical store without physical keys/cards.
+- **Search by Name & Zip Code**: Locate stores using keywords or postal codes.
+- **Shop Open/Close Timing**: Stay updated on operating hours of your favorite shops.
+- **Shop Address & Navigation**: Integrated with Google Maps for easy navigation.
+- **Multilingual Support**: Available in **Danish and English**.
+- **Biometric login Support** User can simply login with his finger print scan.
+
+---
+
+### My Contributions:
+
+- Implemented the KYC module with Krypto + MitID integration.
+- Added phone and email verification flows to improve account security.
+- Upgraded the app to support Android 15 & 16 compatibility.
+- Coordinated camera integration for **real-time product detection**.
+- Fixed critical bugs in authentication, navigation, and shop access modules.
+- Biometric system for login
+- Provided ongoing bug fixes, enhancements, and stability improvements to support production.
+
+---
+
+### Technologies: Kotlin, MVVM, Hilt, OCR, CameraX, REST APIs, Firebase
+
+---
+
+Screenshots:
+<p align="center"> <img src="https://play-lh.googleusercontent.com/S7GNkezaYaGSRqtyahQadfEmvv-uD_kg5XDSjBzwFZqkeGnmvwg41gEf4Hn29EQJ5_RO=w1052-h592-rw" width="250" height="500" />&nbsp;&nbsp; <img src="https://play-lh.googleusercontent.com/S7GNkezaYaGSRqtyahQadfEmvv-uD_kg5XDSjBzwFZqkeGnmvwg41gEf4Hn29EQJ5_RO=w1052-h592-rw" width="250" height="500" />&nbsp;&nbsp;  <img src="https://play-lh.googleusercontent.com/_amAFxEYLGB6RjhkChHZ8YI5ltzhVXMvKZx1PWBg5028h5a60Xb5ZosoYJzwLZ10_aVD=w1052-h592-rw" width="250" height="500" /> </p>
+
+---
+
 # AllahuAlam – Complete Islamic Lifestyle App
 
 AllahuAlam is a comprehensive Islamic mobile application built to support Muslims in fulfilling

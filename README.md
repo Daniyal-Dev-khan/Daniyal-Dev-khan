@@ -2,26 +2,32 @@
 
 ### I'm an Android Developer with over 4 years of experience turning product ideas into smooth, scalable mobile apps. I specialize in Kotlin, Jetpack Compose, and clean architecture (MVVM), and take pride in writing maintainable code that meets real user needs. Whether collaborating in a team or leading development, I’m always learning, sharing, and pushing for technical excellence
 
-<a href="mailto:daniyal.khan.dev@gmail.com"><img src="https://img.shields.io/badge/Email-Daniyal_Khan-8056d5.svg?style=for-the-badge&logo=gmail&logoColor=white"></a>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/daniyal-ahmad-khan-009b33148" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Daniyal-blue.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+<a href="mailto:daniyal.khan.dev@gmail.com"><img src="https://img.shields.io/badge/Email-Daniyal_Khan-8056d5.svg?style=for-the-badge&logo=gmail&logoColor=white"></a>
+&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/daniyal-ahmad-khan-009b33148" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Daniyal-blue.svg?style=for-the-badge&logo=linkedin&logoColor=white"></a>
 
 # Projects:
 
-Each project below reflects my hands-on involvement, architectural contributions, and implementation of advanced Android features using best practices.
+Each project below reflects my hands-on involvement, architectural contributions, and implementation
+of advanced Android features using best practices.
 
 # Pisiffik – Retail Membership & Shopping App
 
-Pisiffik's official mobile app, built to enhance the shopping experience for customers across Greenland. This app digitizes the loyalty card, allowing users to collect and redeem points, view special offers, build shopping lists, and explore curated recipes — all from their smartphone.
+Pisiffik's official mobile app, built to enhance the shopping experience for customers across
+Greenland. This app digitizes the loyalty card, allowing users to collect and redeem points, view
+special offers, build shopping lists, and explore curated recipes — all from their smartphone.
 
 <a href='https://play.google.com/store/apps/details?id=com.sa.pisiffik&hl=en'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height='80px'/></a>
 
 ### Features:
 
--  **Digital Membership Card** – Scan your phone to earn loyalty points across Pisiffik’s chain stores (SPAR, Jysk, Ilva, Elgiganten, Thansen, etc.)
--  **Points System** – Earn 1 point for every 100 DKK spent, rounded up!
--  **Special Offers** – Stay updated on rotating deals available for in-store purchase only.
--  **Shopping List** – Add, edit, or remove items in your smart grocery list.
--  **Recipes** – Discover inspiring recipes by chef Miki Siegstad and add ingredients directly to your list.
--  **Sustainability Campaigns** – Participate in eco-friendly promotions featuring organic products.
+- **Digital Membership Card** – Scan your phone to earn loyalty points across Pisiffik’s chain
+  stores (SPAR, Jysk, Ilva, Elgiganten, Thansen, etc.)
+- **Points System** – Earn 1 point for every 100 DKK spent, rounded up!
+- **Special Offers** – Stay updated on rotating deals available for in-store purchase only.
+- **Shopping List** – Add, edit, or remove items in your smart grocery list.
+- **Recipes** – Discover inspiring recipes by chef Miki Siegstad and add ingredients directly to
+  your list.
+- **Sustainability Campaigns** – Participate in eco-friendly promotions featuring organic products.
 
 ### My Contributions:
 
@@ -34,20 +40,26 @@ Pisiffik's official mobile app, built to enhance the shopping experience for cus
 
 ### Technologies: Kotlin, MVVM, Firebase, Retrofit, Hilt, XML UI, Google Play Services
 
-Pisiffik is Greenland’s largest retail group offering a wide range of products and services through its various brands. This app strengthens customer engagement through personalized offers and smart tools to make shopping more rewarding.
+Pisiffik is Greenland’s largest retail group offering a wide range of products and services through
+its various brands. This app strengthens customer engagement through personalized offers and smart
+tools to make shopping more rewarding.
 
 Screenshots:
 <p align="center"> <img src="https://play-lh.googleusercontent.com/fUufI4QajIsdLi3KYHW42U7pLmuCPvQu3auWWNBm3n0SiLuBDVmQeFK9af7cT9OshA=w5120-h2880-rw" width="250" height="500" />&nbsp;&nbsp; <img src="https://play-lh.googleusercontent.com/3Ca8jtR7xzSKDD9Ygw8bmZdYQFcsRBTK7IUDK3TEpAMDdtAM7iRRtcOoYTkn48op1g=w1052-h592-rw" width="250" height="500" />&nbsp;&nbsp; <img src="https://play-lh.googleusercontent.com/Av763pmRywsDbRD_C2G-hxijalz4M0hG6MSNlFkk0MSinXsP2RUKoihtyImALvTDZ5pl=w1052-h592-rw" width="250" height="500" /> </p>
 
 ---
 
-#  Lemvigh Müller – Unmanned Smart Store App
+# Lemvigh Müller – Unmanned Smart Store App
 
 What if you could walk into a store, pick up what you need, and walk out — no lines, no checkout?
 
-That’s exactly the experience we built with the **Lemvigh Müller** app — a fully autonomous shopping solution for Denmark’s largest technical wholesaler. This smart-store setup uses real-time communication, camera monitoring, and seamless integration between mobile, web, and backend to deliver a checkout-free shopping experience.
+That’s exactly the experience we built with the **Lemvigh Müller** app — a fully autonomous shopping
+solution for Denmark’s largest technical wholesaler. This smart-store setup uses real-time
+communication, camera monitoring, and seamless integration between mobile, web, and backend to
+deliver a checkout-free shopping experience.
 
-> **Lemvigh-Müller** is Denmark’s largest wholesaler of steel and technical installations with over 550,000 products and an annual turnover of 7.9+ billion DKK.
+> **Lemvigh-Müller** is Denmark’s largest wholesaler of steel and technical installations with over
+> 550,000 products and an annual turnover of 7.9+ billion DKK.
 
 <a href="https://play.google.com/store/apps/details?id=com.lemvigh.muller&pcampaignid=web_share">
   <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="80px"/>
@@ -55,9 +67,11 @@ That’s exactly the experience we built with the **Lemvigh Müller** app — a 
 
 ### Features:
 
-- **User Onboarding**: Danish users can sign in using **MitID**, while others scan passports via **OCR**.
+- **User Onboarding**: Danish users can sign in using **MitID**, while others scan passports via *
+  *OCR**.
 - **NFT Scan for Entry**: Users must scan an **NFT** to access the physical store.
-- **Real-Time Cart Updates**: Items are added automatically to the cart as users pick them off the shelf, powered by **camera detection** and **sockets**.
+- **Real-Time Cart Updates**: Items are added automatically to the cart as users pick them off the
+  shelf, powered by **camera detection** and **sockets**.
 - **Image Detection**: Integrated with camera systems to recognize picked items from store shelves.
 - **Checkout via Portal**: After shopping, users complete payment via a connected web portal.
 - **Multilingual Support**: Available in **Danish and English**.
@@ -67,17 +81,18 @@ That’s exactly the experience we built with the **Lemvigh Müller** app — a 
 
 ### My Contributions:
 
--  Designed the **entire app architecture** to support real-time cart updates and seamless backend sync.
--  Integrated **socket communication** for live cart syncing based on camera triggers.
--  Implemented **OCR passport scanning** and **MitID login** for identity verification.
--  Coordinated camera integration for **real-time product detection**.
--  Built the **NFT scan flow** for secure store access.
--  Biometric system for login
--  Added **multi-language support** for Danish and English users.
+- Designed the **entire app architecture** to support real-time cart updates and seamless backend
+  sync.
+- Integrated **socket communication** for live cart syncing based on camera triggers.
+- Implemented **OCR passport scanning** and **MitID login** for identity verification.
+- Coordinated camera integration for **real-time product detection**.
+- Built the **NFT scan flow** for secure store access.
+- Biometric system for login
+- Added **multi-language support** for Danish and English users.
 
 ---
 
-###  Technologies: Kotlin, MVVM, Hilt, WebSockets, OCR, CameraX, REST APIs, Clean Architecture, Firebase
+### Technologies: Kotlin, MVVM, Hilt, WebSockets, OCR, CameraX, REST APIs, Clean Architecture, Firebase
 
 ---
 
@@ -88,7 +103,10 @@ Screenshots:
 
 # Safeti – Venue Safety & Visitor Tracking System
 
-Safeti is a dual-app safety platform designed to track and manage visitors at high-traffic venues such as casinos and nightclubs. It ensures crowd regulation and visitor accountability by enabling QR-based check-ins, automatic tracking, and behavioral monitoring — with a dedicated app for visitors (*Patron*) and one for venue staff (*Guard*).
+Safeti is a dual-app safety platform designed to track and manage visitors at high-traffic venues
+such as casinos and nightclubs. It ensures crowd regulation and visitor accountability by enabling
+QR-based check-ins, automatic tracking, and behavioral monitoring — with a dedicated app for
+visitors (*Patron*) and one for venue staff (*Guard*).
 
 <a href='https://play.google.com/store/apps/details?id=com.sa.safetipatron' target='_blank'>
   <img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height='80px' style='margin-right: 10px;'/>
@@ -98,18 +116,21 @@ Safeti is a dual-app safety platform designed to track and manage visitors at hi
   <img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height='80px'/>
 </a>
 
->  Built for deployment across venues in Denmark, with national ID (MitID) and passport integration.  
+> Built for deployment across venues in Denmark, with national ID (MitID) and passport integration.
 
 ---
 
 ### Patron App – Visitor Interface
 
-- **MitID & Passport Login** – Secure onboarding using Danish **MitID** or **OCR-based passport scanning**.
-- **Location-Based Venue Discovery** – Shows nearby venues by user location, with adjustable search radius.
-- **Venue Detail with QR Code** – Generates a daily venue-specific QR for check-in (expires after 24 hours).
+- **MitID & Passport Login** – Secure onboarding using Danish **MitID** or **OCR-based passport
+  scanning**.
+- **Location-Based Venue Discovery** – Shows nearby venues by user location, with adjustable search
+  radius.
+- **Venue Detail with QR Code** – Generates a daily venue-specific QR for check-in (expires after 24
+  hours).
 - **Smart Check-In/Out**:
-  - Check-in via **QR scan**
-  - Auto check-out if user exits venue radius (using **sockets**)
+    - Check-in via **QR scan**
+    - Auto check-out if user exits venue radius (using **sockets**)
 - **Visit History** – Track list of previously visited venues with timestamps.
 - **Ban List Viewer** – View venues where the user has been banned and who issued the ban.
 
@@ -117,22 +138,22 @@ Safeti is a dual-app safety platform designed to track and manage visitors at hi
 
 ### Guard App – Venue Admin Interface
 
--  **Login Screen** – Restricted access for verified guards only.
--  **Dashboard Charts** – Real-time insights of today’s check-ins/check-outs.
--  **QR Scanner** – Scan patron QR codes for instant check-in validation.
--  **Visitor Logs** – Full visit history with timestamps for each visitor.
--  **Ban Users** – Manually ban patrons based on venue behavior.
+- **Login Screen** – Restricted access for verified guards only.
+- **Dashboard Charts** – Real-time insights of today’s check-ins/check-outs.
+- **QR Scanner** – Scan patron QR codes for instant check-in validation.
+- **Visitor Logs** – Full visit history with timestamps for each visitor.
+- **Ban Users** – Manually ban patrons based on venue behavior.
 
 ---
 
-###  My Contributions:
+### My Contributions:
 
--  Developed both **Patron** and **Guard** Android apps.
--  Designed and implemented the **check-in/out system** using QR + location + WebSockets.
--  Built **dynamic venue discovery UI** with radius filtering.
--  Integrated **OCR + MitID** authentication flow.
--  Developed **real-time charts and analytics** for venue guards.
--  Managed **visit and ban history modules** on both sides.
+- Developed both **Patron** and **Guard** Android apps.
+- Designed and implemented the **check-in/out system** using QR + location + WebSockets.
+- Built **dynamic venue discovery UI** with radius filtering.
+- Integrated **OCR + MitID** authentication flow.
+- Developed **real-time charts and analytics** for venue guards.
+- Managed **visit and ban history modules** on both sides.
 
 ---
 
@@ -140,6 +161,50 @@ Safeti is a dual-app safety platform designed to track and manage visitors at hi
 
 Screenshots:
 <p align="center"> <img src="https://lh3.googleusercontent.com/jR6s2QOKgoA2lw2veWwyDUPu9yQhMOrSSm_ffK0xsM_G8wl7cMhJ49-XTxsvKG0Vmw" width="250" height="500" />&nbsp;&nbsp; <img src="https://lh3.googleusercontent.com/LCGul50EOabVtoyF_BDvhD1wY_1XYq8kJl6XLX-HPMBFU8-Qonu2fjD7ejiKCefR1kM5" width="250" height="500" />&nbsp;&nbsp; <img src="https://lh3.googleusercontent.com/vp5nJJpzYnZI5RsDjJS8SbX27PWNI5Xp6VtRARke6dJizH2OLwm2xVuVaC9MNivUBXo" width="250" height="500" /> </p>
+
+---
+
+# Unlimit Key – Retail Access & Store Companion App
+
+Unlimit Key is a next-generation retail access app that helps users seamlessly discover shops, check
+details like timing & location, and even unlock store doors digitally. The app eliminates the need
+for physical keys or cards while enhancing convenience and security for both users and shop owners.
+
+<a href="https://play.google.com/store/apps/details?id=com.unlimit.unlimit.key&hl=en">
+<img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="80px"/>
+</a>
+
+### Features:
+
+- **User KYC**: Danish users can sign in using **MitID**, while others scan passports via *
+  *OCR**.
+- **NFT Scan for Entry**: Users must scan an **NFT** to access the physical store without physical keys/cards.
+- **Search by Name & Zip Code**: Locate stores using keywords or postal codes.
+- **Shop Open/Close Timing**: Stay updated on operating hours of your favorite shops.
+- **Shop Address & Navigation**: Integrated with Google Maps for easy navigation.
+- **Multilingual Support**: Available in **Danish and English**.
+- **Biometric login Support** User can simply login with his finger print scan.
+
+---
+
+### My Contributions:
+
+- Implemented the KYC module with Krypto + MitID integration.
+- Added phone and email verification flows to improve account security.
+- Upgraded the app to support Android 15 & 16 compatibility.
+- Coordinated camera integration for **real-time product detection**.
+- Fixed critical bugs in authentication, navigation, and shop access modules.
+- Biometric system for login
+- Provided ongoing bug fixes, enhancements, and stability improvements to support production.
+
+---
+
+### Technologies: Kotlin, MVVM, Hilt, OCR, CameraX, REST APIs, Firebase 
+
+---
+
+Screenshots:
+<p align="center"> <img src="https://play-lh.googleusercontent.com/S7GNkezaYaGSRqtyahQadfEmvv-uD_kg5XDSjBzwFZqkeGnmvwg41gEf4Hn29EQJ5_RO=w1052-h592-rw" width="250" height="500" />&nbsp;&nbsp; <img src="https://play-lh.googleusercontent.com/S7GNkezaYaGSRqtyahQadfEmvv-uD_kg5XDSjBzwFZqkeGnmvwg41gEf4Hn29EQJ5_RO=w1052-h592-rw" width="250" height="500" />&nbsp;&nbsp;  <img src="https://play-lh.googleusercontent.com/_amAFxEYLGB6RjhkChHZ8YI5ltzhVXMvKZx1PWBg5028h5a60Xb5ZosoYJzwLZ10_aVD=w1052-h592-rw" width="250" height="500" /> </p>
 
 ---
 
@@ -185,33 +250,45 @@ Screenshots:
 
 # Krytron – Blockchain-Based Digital Wallet App
 
-Krytron is a secure and user-friendly cryptocurrency wallet app, designed for managing digital assets built on Pakistan’s leading public blockchain. In partnership with **GIFTIO** (digital gifting solutions) and **Neem** (financial service provider), Krytron enables users to create, manage, and transact their Krytron tokens securely — all from one powerful mobile wallet.
+Krytron is a secure and user-friendly cryptocurrency wallet app, designed for managing digital
+assets built on Pakistan’s leading public blockchain. In partnership with **GIFTIO** (digital
+gifting solutions) and **Neem** (financial service provider), Krytron enables users to create,
+manage, and transact their Krytron tokens securely — all from one powerful mobile wallet.
 
-> A key goal of Krytron is to empower users with full control of their crypto assets using decentralized storage and strong encryption.
+> A key goal of Krytron is to empower users with full control of their crypto assets using
+> decentralized storage and strong encryption.
 
 ---
 
 ### Features:
 
--  **Mnemonic Wallet Creation** – Generate secure wallets using **BIP39 seed phrases** (12-word recovery keys).
--  **Backup Locally** – Mnemonics, private keys, and signatures are securely saved to the user’s device (not cloud/downloads).
--  **Biometric Authentication** – Secure login using face/fingerprint for returning users.
--  **Buy / Sell Tokens** – Purchase and sell Krytron or other tokens directly in the app.
--  **Send & Request Funds** – Transfer or request funds using phone number or wallet address.
--  **Transaction History** – View all wallet transactions with detailed entries and downloadable **PDF statements**.
--  **Neem API Integration** – Partnered with Neem for processing financial transactions within Pakistan.
--  **AES Encryption** – Applied **Advanced Encryption Standard** to securely encrypt user data.
+- **Mnemonic Wallet Creation** – Generate secure wallets using **BIP39 seed phrases** (12-word
+  recovery keys).
+- **Backup Locally** – Mnemonics, private keys, and signatures are securely saved to the user’s
+  device (not cloud/downloads).
+- **Biometric Authentication** – Secure login using face/fingerprint for returning users.
+- **Buy / Sell Tokens** – Purchase and sell Krytron or other tokens directly in the app.
+- **Send & Request Funds** – Transfer or request funds using phone number or wallet address.
+- **Transaction History** – View all wallet transactions with detailed entries and downloadable *
+  *PDF statements**.
+- **Neem API Integration** – Partnered with Neem for processing financial transactions within
+  Pakistan.
+- **AES Encryption** – Applied **Advanced Encryption Standard** to securely encrypt user data.
 
 ---
 
 ### My Contributions:
 
-- Gained deep understanding of the end-to-end wallet flow, from mnemonic generation to transaction handling and statement generation.
-- Integrated updated Neem APIs to handle Buy/Sell Krytron transactions smoothly with secure backend interactions.
+- Gained deep understanding of the end-to-end wallet flow, from mnemonic generation to transaction
+  handling and statement generation.
+- Integrated updated Neem APIs to handle Buy/Sell Krytron transactions smoothly with secure backend
+  interactions.
 - Added Urdu language support, improving accessibility for local users.
-- Performed detailed code maintenance, including bug fixes, refactoring, and performance improvements.
+- Performed detailed code maintenance, including bug fixes, refactoring, and performance
+  improvements.
 - Implemented unit tests to ensure correctness and stability of the transaction modules.
-- Maintained and improved the Kotlin + React Native codebase while aligning it with modern architecture standards.
+- Maintained and improved the Kotlin + React Native codebase while aligning it with modern
+  architecture standards.
 
 ---
 
@@ -222,10 +299,12 @@ Screenshots:
 
 ---
 
+# Huk – Real-Time Dating App
 
-#  Huk – Real-Time Dating App
-
-Huk is a modern dating app designed to connect people through real-time interaction, event discovery, and smart user matching. I contributed as a **Senior Android Developer**, building multiple core features such as live chat, profile creation, location-based event tracking, face verification, and more.
+Huk is a modern dating app designed to connect people through real-time interaction, event
+discovery, and smart user matching. I contributed as a **Senior Android Developer**, building
+multiple core features such as live chat, profile creation, location-based event tracking, face
+verification, and more.
 
 <a href='https://play.google.com/store/apps/details?id=com.cp.dating.match.partner.hukd&hl=en_GB'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height='80px'/></a>
 
@@ -233,26 +312,30 @@ Huk is a modern dating app designed to connect people through real-time interact
 
 ### Features:
 
--  **Real-Time Chat** – Built a live chat system using **WebSockets** for instant messaging between users.
--  **Profile Setup** – Created a full onboarding and profile setup screen with gender, orientation, and interest fields.
--  **Hotspots / Events Nearby** – Users can discover local events via Google Maps with a heatmap + radius-based filtering.
--  **Missed Connections** – Notifies users if a planned meetup was missed and gives a chance to reconnect.
--  **Face Verification** – Users verify identity via face matching to ensure trust and safety.
--  **Swipe Functionality** – Tinder-style swipe gestures (right for like, left for skip).
--  **Push Notifications** – Implemented Firebase Cloud Messaging for match updates and chat alerts.
--  **Authentication** – Integrated **Firebase Auth**, including **Google and Facebook login**.
+- **Real-Time Chat** – Built a live chat system using **WebSockets** for instant messaging between
+  users.
+- **Profile Setup** – Created a full onboarding and profile setup screen with gender, orientation,
+  and interest fields.
+- **Hotspots / Events Nearby** – Users can discover local events via Google Maps with a heatmap +
+  radius-based filtering.
+- **Missed Connections** – Notifies users if a planned meetup was missed and gives a chance to
+  reconnect.
+- **Face Verification** – Users verify identity via face matching to ensure trust and safety.
+- **Swipe Functionality** – Tinder-style swipe gestures (right for like, left for skip).
+- **Push Notifications** – Implemented Firebase Cloud Messaging for match updates and chat alerts.
+- **Authentication** – Integrated **Firebase Auth**, including **Google and Facebook login**.
 
 ---
 
 ### My Contributions:
- 
--  Built and connected real-time **WebSocket chat infrastructure**.
--  Developed the **Hotspots** map view using Google Maps and heatmap overlays.
--  Created the entire **profile onboarding flow**.
--  Implemented **Face Verification** using camera capture and image comparison APIs.
--  Built the **swipe logic** using gesture detection for matches.
--  Set up **Firebase push notifications** and **social sign-in flows** (Google & Facebook).
--  Organized the codebase with **MVVM**, clean architecture, and Hilt.
+
+- Built and connected real-time **WebSocket chat infrastructure**.
+- Developed the **Hotspots** map view using Google Maps and heatmap overlays.
+- Created the entire **profile onboarding flow**.
+- Implemented **Face Verification** using camera capture and image comparison APIs.
+- Built the **swipe logic** using gesture detection for matches.
+- Set up **Firebase push notifications** and **social sign-in flows** (Google & Facebook).
+- Organized the codebase with **MVVM**, clean architecture, and Hilt.
 
 ---
 
@@ -265,19 +348,26 @@ Screenshots:
 
 # Open Borders – Immigration Guide App
 
-Open Borders is a user-centric immigration app built to guide individuals through complex US immigration processes. It offers structured Q&A flows, consultation booking, real-time immigration news, and multilingual support — all from a clean, accessible interface. Whether using the app as a guest or through secure login, users can receive tailored information and take action directly from the app.
+Open Borders is a user-centric immigration app built to guide individuals through complex US
+immigration processes. It offers structured Q&A flows, consultation booking, real-time immigration
+news, and multilingual support — all from a clean, accessible interface. Whether using the app as a
+guest or through secure login, users can receive tailored information and take action directly from
+the app.
 
 <a href='https://play.google.com/store/apps/details?id=com.open.borders&hl=en'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height='80px'/></a>
 
-> **Disclaimer**: This is a simplified clone created for demonstration purposes. The original source code is protected by IP agreements and cannot be shared publicly.
+> **Disclaimer**: This is a simplified clone created for demonstration purposes. The original source
+> code is protected by IP agreements and cannot be shared publicly.
 
 ---
 
 ### Features:
 
 - **Guest Mode & Login** – Use the app as a guest or sign in via email or Google for full access.
-- **Consultancy Scheduling** – Book sessions with immigration experts and pay via **Stripe** or **Google Pay**.
-- **Guided Q&A Flow** – Answer a step-by-step series of questions to get personalized immigration options.
+- **Consultancy Scheduling** – Book sessions with immigration experts and pay via **Stripe** or *
+  *Google Pay**.
+- **Guided Q&A Flow** – Answer a step-by-step series of questions to get personalized immigration
+  options.
 - **News Feed** – Stay updated with the latest immigration policies, news, and alerts.
 - **Multilingual Support** – Available in multiple languages to support global users.
 
@@ -304,21 +394,30 @@ Screenshots:
 
 # Censor X – Face Blur & Voice Distortion App
 
-Censor X is an innovative privacy app designed to help users protect their identity in both images and videos. With advanced face detection, audio distortion, and multiple blurring modes, it enables complete control over what is revealed or hidden. Whether you're anonymizing a selfie, muting audio in a clip, or obscuring identities in sensitive content — Censor X makes it easy and fast.
+Censor X is an innovative privacy app designed to help users protect their identity in both images
+and videos. With advanced face detection, audio distortion, and multiple blurring modes, it enables
+complete control over what is revealed or hidden. Whether you're anonymizing a selfie, muting audio
+in a clip, or obscuring identities in sensitive content — Censor X makes it easy and fast.
 
 <a href='https://github.com/Daniyal-Dev-khan/Censor-X.git'><img alt='View on GitHub' src='https://img.shields.io/badge/Censor_X-GitHub-blue?style=for-the-badge&logo=github'></a>
 
-> **Note**: This is a portfolio project created to demonstrate my capabilities in privacy-focused media manipulation.
+> **Note**: This is a portfolio project created to demonstrate my capabilities in privacy-focused
+> media manipulation.
 
 ---
 
 ### Features:
 
-- **Face Detection + Blur** – Automatically detects faces in images and applies blur to protect identity.
-- **Finger Blur Tool** – Manually blur any part of an image using touch gestures for precise control.
-- **Top-to-Bottom Video Blur** – Applies full-frame blur in videos for anonymizing scenes without cropping.
-- **Voice Distortion & Mute** – Modify voice pitch or mute audio in videos for privacy or redaction purposes.
-- **Fast Media Rendering** – Built for performance using hardware acceleration and efficient frame handling.
+- **Face Detection + Blur** – Automatically detects faces in images and applies blur to protect
+  identity.
+- **Finger Blur Tool** – Manually blur any part of an image using touch gestures for precise
+  control.
+- **Top-to-Bottom Video Blur** – Applies full-frame blur in videos for anonymizing scenes without
+  cropping.
+- **Voice Distortion & Mute** – Modify voice pitch or mute audio in videos for privacy or redaction
+  purposes.
+- **Fast Media Rendering** – Built for performance using hardware acceleration and efficient frame
+  handling.
 
 ---
 
@@ -342,33 +441,37 @@ Screenshots:
 
 # Fish The Break – Fishing Data Tracker App
 
-Fish The Break is a modern fishing companion app built to help anglers track, plan, and optimize their fishing experience using real-time environmental data. By integrating weather layers, trolling route tracking, and offline support, the app empowers users to make smart, data-driven decisions before casting their lines.
+Fish The Break is a modern fishing companion app built to help anglers track, plan, and optimize
+their fishing experience using real-time environmental data. By integrating weather layers, trolling
+route tracking, and offline support, the app empowers users to make smart, data-driven decisions
+before casting their lines.
 
 <a href='https://github.com/Daniyal-Dev-khan/Fish-The-Break.git'><img alt='View on GitHub' src='https://img.shields.io/badge/Fish_The_Break-GitHub-blue?style=for-the-badge&logo=github'></a>
 
-> **Disclaimer**: This is a simplified clone created for demonstration purposes. The original source code is protected by IP agreements and cannot be shared publicly.
+> **Disclaimer**: This is a simplified clone created for demonstration purposes. The original source
+> code is protected by IP agreements and cannot be shared publicly.
 
 ---
 
 ### Features:
 
 - **Weather & Sea Data Layers**:
-  - Chlorophyll level overlays to identify high fish activity zones
-  - Wind speed & direction data to help choose trolling paths
-  - Real-time weather radar for both sea and coastal regions
-  - Integrated **ArcGIS** maps for geospatial context
+    - Chlorophyll level overlays to identify high fish activity zones
+    - Wind speed & direction data to help choose trolling paths
+    - Real-time weather radar for both sea and coastal regions
+    - Integrated **ArcGIS** maps for geospatial context
 
 - **Trolling & Route Tracking**:
-  - Mark and track trolling lines with precision
-  - Save favorite fishing spots and custom routes locally using Room DB
-  - Built-in distance measurement between tracked points
+    - Mark and track trolling lines with precision
+    - Save favorite fishing spots and custom routes locally using Room DB
+    - Built-in distance measurement between tracked points
 
 - **Offline Support**:
-  - Route and point data saved offline via Room DB
-  - **Flows & Coroutines** ensure smooth background saving/retrieving
+    - Route and point data saved offline via Room DB
+    - **Flows & Coroutines** ensure smooth background saving/retrieving
 
 - **Custom Data Layers**:
-  - Enable/disable specific weather overlays to tailor your fishing dashboard
+    - Enable/disable specific weather overlays to tailor your fishing dashboard
 
 ---
 
@@ -392,21 +495,29 @@ Screenshots:
 
 # Glampions – Fitness & Wellness Tracker App
 
-Glampions is a sleek fitness app designed to help users stay active and healthy by tracking workouts, calories, and daily steps — all from one intuitive platform. With real-time data sync, workout videos, and motivational notifications, it’s built to empower users on their fitness journey.
+Glampions is a sleek fitness app designed to help users stay active and healthy by tracking
+workouts, calories, and daily steps — all from one intuitive platform. With real-time data sync,
+workout videos, and motivational notifications, it’s built to empower users on their fitness
+journey.
 
 <a href='https://github.com/Daniyal-Dev-khan/Glampions.git'><img alt='View on GitHub' src='https://img.shields.io/badge/Glampions-GitHub-blue?style=for-the-badge&logo=github'></a>
 
-> **Disclaimer**: This is a simplified clone created for demonstration purposes. The original source code is protected under an intellectual property agreement.
+> **Disclaimer**: This is a simplified clone created for demonstration purposes. The original source
+> code is protected under an intellectual property agreement.
 
 ---
 
 ### Features:
 
-- **Workout Videos** – Stream guided workouts using **ExoPlayer**, categorized by goal, intensity, and duration.
+- **Workout Videos** – Stream guided workouts using **ExoPlayer**, categorized by goal, intensity,
+  and duration.
 - **Calorie Tracking** – Log meals, analyze intake, and view weekly charts of progress.
-- **Step Monitoring** – Integrated with **Google Fit API** to monitor steps, distance, and calories burned.
-- **Push Notifications** – Stay motivated with reminders for workouts and goals via **Firebase Cloud Messaging**.
-- **Real-Time Sync** – Workout data and progress sync live with the server using **WebSockets** and REST APIs.
+- **Step Monitoring** – Integrated with **Google Fit API** to monitor steps, distance, and calories
+  burned.
+- **Push Notifications** – Stay motivated with reminders for workouts and goals via **Firebase Cloud
+  Messaging**.
+- **Real-Time Sync** – Workout data and progress sync live with the server using **WebSockets** and
+  REST APIs.
 
 ---
 
@@ -429,11 +540,14 @@ Screenshots:
 
 # Cafe 16 – Food Delivery App for US Army
 
-Cafe 16 is a dedicated food delivery application built for US Army personnel. It simplifies the food ordering process with categorized menus, real-time delivery tracking, secure online payments, and personalized recommendations — all within a multi-language, user-friendly environment.
+Cafe 16 is a dedicated food delivery application built for US Army personnel. It simplifies the food
+ordering process with categorized menus, real-time delivery tracking, secure online payments, and
+personalized recommendations — all within a multi-language, user-friendly environment.
 
 <a href='https://github.com/Daniyal-Dev-khan/Cafe-16.git'><img alt='View on GitHub' src='https://img.shields.io/badge/Cafe_16-GitHub-blue?style=for-the-badge&logo=github'></a>
 
-> **Disclaimer**: This is a simplified clone created for demonstration purposes. The original source code is protected under an intellectual property agreement and cannot be shared publicly.
+> **Disclaimer**: This is a simplified clone created for demonstration purposes. The original source
+> code is protected under an intellectual property agreement and cannot be shared publicly.
 
 ---
 
@@ -443,19 +557,20 @@ Cafe 16 is a dedicated food delivery application built for US Army personnel. It
 - **Personalized Home** – Displays food suggestions based on previous orders and preferences.
 - **Menu Navigation** – Organized menu with intuitive **categories and subcategories**.
 - **Cart System** – Add/remove items with full **bill preview** before checkout.
-- **Delivery Tracking** – Real-time status and map-based tracking using **Google Maps** and **WebSockets**.
+- **Delivery Tracking** – Real-time status and map-based tracking using **Google Maps** and *
+  *WebSockets**.
 - **Online Payments** – Secure payment integration with **Stripe SDK**.
 - **Multi-language Localization** – UI supports multiple languages for better accessibility.
 
 ---
 
-###  My Contributions:
+### My Contributions:
 
--  Developed the **menu & cart module** including category navigation and item management.
--  Built the **delivery tracking system** using **WebSockets** and Google Maps.
--  Integrated **Stripe** for secure online payments.
--  Implemented **multi-language support** across the app for global usability.
--  Managed **real-time delivery updates** with smooth UI syncing.
+- Developed the **menu & cart module** including category navigation and item management.
+- Built the **delivery tracking system** using **WebSockets** and Google Maps.
+- Integrated **Stripe** for secure online payments.
+- Implemented **multi-language support** across the app for global usability.
+- Managed **real-time delivery updates** with smooth UI syncing.
 
 ---
 
@@ -468,26 +583,27 @@ Screenshots:
 
 ## Technologies & Tools
 
-- **Languages**: Kotlin, Java  , java scipt
-- **Architecture**: MVVM, Repository Pattern , Clean Architecture 
-- **UI**: Jetpack Compose, XML  
-- **Libraries**: Room, Hilt, Retrofit, ExoPlayer, Coroutines, Flows  
-- **APIs & SDKs**: Google Fit, Firebase, Stripe, Google Maps, ArcGIS, WebSockets  
+- **Languages**: Kotlin, Java , java scipt
+- **Architecture**: MVVM, Repository Pattern , Clean Architecture
+- **UI**: Jetpack Compose, XML
+- **Libraries**: Room, Hilt, Retrofit, ExoPlayer, Coroutines, Flows
+- **APIs & SDKs**: Google Fit, Firebase, Stripe, Google Maps, ArcGIS, WebSockets
 - **Tools**: Android Studio, Postman, Git, GitHub
 
 ---
 
 ## Currently Exploring
 
-- Compose Multiplatform  
-- Modular Architecture  
-- Android Performance Optimization  
+- Compose Multiplatform
+- Modular Architecture
+- Android Performance Optimization
 
 ---
 
 ## Thanks for visiting my profile!
 
-Feel free to explore my projects or get in touch via email or LinkedIn. I’m always open to discussing collaboration, code, or new ideas!
+Feel free to explore my projects or get in touch via email or LinkedIn. I’m always open to
+discussing collaboration, code, or new ideas!
 
 ---
 
