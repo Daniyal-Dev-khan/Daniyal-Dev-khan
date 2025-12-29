@@ -19,7 +19,7 @@ of advanced Android features using best practices.
 
 Pisiffik's official mobile app, built to enhance the shopping experience for customers across
 Greenland. This app digitizes the loyalty card, allowing users to collect and redeem points, view
-special offers, build shopping lists, and explore curated recipes — all from their smartphone.
+special offers, build shopping lists, and explore curated recipes all from their smartphone.
 
 <a href='https://play.google.com/store/apps/details?id=com.sa.pisiffik&hl=en'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' height='80px'/></a>
 
@@ -36,7 +36,8 @@ special offers, build shopping lists, and explore curated recipes — all from t
 
 ### My Contributions:
 
-- Currently working new points system feature.
+- New Points System with UI.
+- Animations & Theme
 - Integrated the **Webshop** module for online browsing and purchasing.
 - Implemented complete **Add to Cart flow** with quantity management and seamless UX.
 - Cleaned the existing codebase by fixing **legacy bugs** and refactoring for maintainability.
@@ -50,7 +51,7 @@ its various brands. This app strengthens customer engagement through personalize
 tools to make shopping more rewarding.
 
 Screenshots:
-<p align="center"> <img src="https://play-lh.googleusercontent.com/fUufI4QajIsdLi3KYHW42U7pLmuCPvQu3auWWNBm3n0SiLuBDVmQeFK9af7cT9OshA=w5120-h2880-rw" width="250" height="500" />&nbsp;&nbsp; <img src="https://play-lh.googleusercontent.com/3Ca8jtR7xzSKDD9Ygw8bmZdYQFcsRBTK7IUDK3TEpAMDdtAM7iRRtcOoYTkn48op1g=w1052-h592-rw" width="250" height="500" />&nbsp;&nbsp; <img src="https://play-lh.googleusercontent.com/Av763pmRywsDbRD_C2G-hxijalz4M0hG6MSNlFkk0MSinXsP2RUKoihtyImALvTDZ5pl=w1052-h592-rw" width="250" height="500" /> </p>
+<p align="center"> <img src="https://play-lh.googleusercontent.com/c5nM4HoRddigQySzFmW3McL6D5VDLEthaMGdqHs0hq1AOOvRxfrmd7KCuYh2aiR9ULD3DuoA8bwsvcxU_fEP=w1052-h592-rw" width="250" height="500" />&nbsp;&nbsp; <img src="https://play-lh.googleusercontent.com/1qBJHUlvx8wbxcNctJizcdhjcJ5XYBADJEiqRyKcGFKijIxept7x4RzVi6SL-sdZhLRhaHZkRICsMH6-SEm2hAo=w1052-h592-rw" width="250" height="500" />&nbsp;&nbsp; <img src="https://play-lh.googleusercontent.com/Du7JjbWXEIzdxg7ZHywkXsCYv8ikDn51Nm9dt5Qa-7daj6i0bK2jMhYVLp0U2ycRfPswhdtxaThqiMYL_FKV=w1052-h592-rw" width="250" height="500" /> </p>
 
 ---
 
@@ -196,7 +197,8 @@ The app is actively used by 1000+ users in Denmark.
 
 ### My Contributions:
 
-- Implemented the KYC module with Krypto + MitID integration.
+- Implemented the KYC module with Cripto + MitID integration.
+- Auto App switching via deep linking and Auth Tab and Custom Tab with app auth.
 - Added phone and email verification flows to improve account security.
 - Upgraded the app to support Android 15 & 16 compatibility.
 - Coordinated camera integration for **real-time product detection**.
@@ -206,12 +208,58 @@ The app is actively used by 1000+ users in Denmark.
 
 ---
 
-### Technologies: Kotlin, MVVM, Hilt, OCR, CameraX, REST APIs, Firebase
+### Technologies: Kotlin, MVVM, Hilt, Chrome Auth Tab, Custom tab with App auth, OCR Scan, CameraX, REST APIs, Firebase
 
 ---
 
 Screenshots:
 <p align="center"> <img src="https://play-lh.googleusercontent.com/S7GNkezaYaGSRqtyahQadfEmvv-uD_kg5XDSjBzwFZqkeGnmvwg41gEf4Hn29EQJ5_RO=w1052-h592-rw" width="250" height="500" />&nbsp;&nbsp; <img src="https://play-lh.googleusercontent.com/S7GNkezaYaGSRqtyahQadfEmvv-uD_kg5XDSjBzwFZqkeGnmvwg41gEf4Hn29EQJ5_RO=w1052-h592-rw" width="250" height="500" />&nbsp;&nbsp;  <img src="https://play-lh.googleusercontent.com/_amAFxEYLGB6RjhkChHZ8YI5ltzhVXMvKZx1PWBg5028h5a60Xb5ZosoYJzwLZ10_aVD=w1052-h592-rw" width="250" height="500" /> </p>
+
+---
+
+# Smart Shop – Retail Access & Store Companion App
+
+Smart is a smart retail access app that allows users to discover nearby shops, check timings,
+get navigation, and even unlock store doors digitally removing the need for physical keys or cards.
+The app is actively used by 1000+ users in Denmark.
+
+<a href="https://play.google.com/store/apps/details?id=com.unlimit.near.key&hl=en">
+<img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" height="80px"/>
+</a>
+
+### Features:
+
+- **User KYC**: Danish users can sign in using **MitID**, while others scan passports via *
+  *OCR**.
+- **NFT Scan for Entry**: Users must scan an **NFT** to access the physical store without physical
+  keys/cards.
+- **Search by Name & Zip Code**: Locate stores using keywords or postal codes.
+- **Shop Open/Close Timing**: Stay updated on operating hours of your favorite shops.
+- **Shop Address & Navigation**: Integrated with Google Maps for easy navigation.
+- **Multilingual Support**: Available in **Danish and English**.
+- **Biometric login Support** User can simply login with his finger print scan.
+
+---
+
+### My Contributions:
+
+- Implemented the KYC module with Cripto + MitID integration.
+- Auto App switching via deep linking and Auth Tab and Custom Tab with app auth.
+- Added phone and email verification flows to improve account security.
+- Upgraded the app to support Android 15 & 16 compatibility.
+- Coordinated camera integration for **real-time product detection**.
+- Fixed critical bugs in authentication, navigation, and shop access modules.
+- Biometric system for login
+- Provided ongoing bug fixes, enhancements, and stability improvements to support production.
+
+---
+
+### Technologies: Kotlin, MVVM, Hilt, Chrome Auth Tab, Custom tab with App auth, OCR Scan, CameraX, REST APIs, Firebase
+
+---
+
+Screenshots:
+<p align="center"> <img src="https://play-lh.googleusercontent.com/61g99rFMVb-GOQYvP9Z04CsDhOnRAY6djCX4VjWXUs4s79kcTJYkl_3p6rCBiSkn9Tg=w1052-h592-rw" width="250" height="500" />&nbsp;&nbsp; <img src="https://play-lh.googleusercontent.com/EW8oneDfOGWSeBsatYrml4LpKQ2duUYYp_AlMy44CrD73sdMd6BfrCR87Bja0RbdHkU=w1052-h592-rw" />&nbsp;&nbsp;  <img src="https://play-lh.googleusercontent.com/O2BUFkDEVlBe8SRshulTZ43CMjHnx3z4ppWNIgeSsNQateB21kmpmP5gZx7M2KsQAYne=w1052-h592-rw" width="250" height="500" /> </p>
 
 ---
 
