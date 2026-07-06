@@ -370,6 +370,14 @@ section { padding: 90px 0; }
   font-size: 0.85rem;
 }
 .gcard-more li::before { content: "▸"; position: absolute; left: 0; color: var(--accent); }
+.gcard-more code {
+  font-family: var(--mono);
+  font-size: 0.8em;
+  color: var(--accent);
+  background: var(--accent-dim);
+  border-radius: 4px;
+  padding: 1px 5px;
+}
 
 .gcard-tech {
   display: flex;
