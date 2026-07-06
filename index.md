@@ -120,7 +120,6 @@ visitors (*Patron*) and one for venue staff (*Guard*).
 ---
 
 ### Safeti Patron App – Visitor Interface
-
 - **MitID & Passport Login** – Secure onboarding using Danish **MitID** or **OCR-based passport
   scanning**.
 - **Location-Based Venue Discovery** – Shows nearby venues by user location, with adjustable search
