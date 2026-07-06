@@ -7,6 +7,7 @@
 
 # Projects:
 
+
 Each project below reflects my hands-on involvement, architectural contributions, and implementation
 of advanced Android features using best practices.
 
