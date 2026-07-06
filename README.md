@@ -104,6 +104,7 @@ Screenshots:
 
 # Safeti – Venue Safety & Visitor Tracking System
 
+
 Safeti is a dual-app safety platform designed to track and manage visitors at high-traffic venues
 such as casinos and nightclubs. It ensures crowd regulation and visitor accountability by enabling
 QR-based check-ins, automatic tracking, and behavioral monitoring — with a dedicated app for
