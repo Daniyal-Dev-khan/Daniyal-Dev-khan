@@ -357,7 +357,6 @@ Screenshots:
 ---
 
 # AllahuAlam – Complete Islamic Lifestyle App
-
 AllahuAlam is a comprehensive Islamic mobile application built to support Muslims in fulfilling
 their daily religious duties with ease and spiritual focus. It features a clean, intuitive interface
 with highly practical tools such as Qibla direction, prayer tracking, Quran recitation, and more —
