@@ -235,6 +235,37 @@
           </div>
         </article>
 
+        <!-- Unlimit POS Kiosk -->
+        <article class="fproject reveal">
+          <div class="fp-content">
+            <p class="fp-tag">Featured · POS &amp; Payments · Kiosk Hardware</p>
+            <h3 class="fp-title">Unlimit POS — Self-Service Kiosk (AIOS)</h3>
+            <p class="fp-client">Unlimit Technologies ApS · Zebra KC50 kiosk hardware · Denmark</p>
+            <div class="fp-desc">
+              A self-service <strong>Android POS kiosk</strong>: customers browse the catalog,
+              scan barcodes, build a cart, and pay contactlessly via <strong>Softpay
+              Tap-to-Pay</strong> — with an <strong>offline-first order pipeline</strong> so the
+              customer never waits on the network.
+            </div>
+            <ul class="fp-highlights">
+              <li>Offline-first checkout: orders persist to Room before any network call, uploaded via WorkManager with exponential backoff</li>
+              <li>Three-phase Softpay AppSwitch payment flow with webhook-driven backend confirmation</li>
+              <li>Transport-agnostic USB HID barcode scanning (Datalogic &amp; Zebra DataWedge)</li>
+              <li>Realtime catalog updates over Socket.IO; kiosk hardening with lock-task mode &amp; device JWT auth</li>
+            </ul>
+            <div class="fp-tech">
+              <span class="chip">Kotlin</span><span class="chip">Clean Architecture</span><span class="chip">Room</span><span class="chip">WorkManager</span><span class="chip">Socket.IO</span><span class="chip">Softpay Tap-to-Pay</span>
+            </div>
+          </div>
+          <div class="fp-media">
+            <div class="phone-row kiosk">
+              <img class="phone" loading="lazy" alt="Unlimit POS kiosk welcome screen" src="assets/pos_welcome.jpg" />
+              <img class="phone" loading="lazy" alt="Unlimit POS product catalog with cart" src="assets/pos_catalog.jpg" />
+              <img class="phone" loading="lazy" alt="Unlimit POS Tap-to-Pay payment screen" src="assets/pos_payment.jpg" />
+            </div>
+          </div>
+        </article>
+
       </div>
     </div>
   </section>
@@ -246,26 +277,6 @@
       <p class="section-sub reveal">Other apps I've built or contributed to — click a card to see my role.</p>
 
       <div class="grid">
-
-        <article class="gcard reveal">
-          <div class="gcard-head">
-            <span class="gcard-icon">💳</span>
-            <div class="gcard-links"></div>
-          </div>
-          <h3>Unlimit POS — Self-Service Kiosk</h3>
-          <p>Android POS kiosk for the Zebra KC50 — product catalog with realtime Socket.IO updates, barcode scanning, offline-first checkout, and contactless Tap-to-Pay via Softpay AppSwitch.</p>
-          <div class="gcard-more">
-            <ul>
-              <li>Offline-first order pipeline: Room persistence before any network call, WorkManager upload with exponential backoff</li>
-              <li>Three-phase Softpay AppSwitch payment flow with webhook-driven backend confirmation (socket vs. receipt-poll race)</li>
-              <li>Transport-agnostic USB HID barcode scanning (Datalogic &amp; Zebra DataWedge)</li>
-              <li>Clean Architecture with typed <code>Result</code>/<code>DataError</code> and swappable hardware provider abstractions</li>
-              <li>Kiosk hardening: lock-task mode, device JWT auth, API-driven localisation</li>
-            </ul>
-          </div>
-          <div class="gcard-tech"><span>Kotlin</span><span>Hilt</span><span>Room</span><span>WorkManager</span><span>Socket.IO</span><span>Softpay Tap-to-Pay</span></div>
-          <button class="gcard-toggle">+ my role</button>
-        </article>
 
         <article class="gcard reveal">
           <div class="gcard-head">

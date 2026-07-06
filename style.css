@@ -315,6 +315,7 @@ section { padding: 90px 0; }
   transform: translateY(-8px) scale(1.02);
   box-shadow: 0 24px 50px -16px rgba(61,220,132,0.25);
 }
+.phone-row.kiosk .phone { aspect-ratio: 9 / 16; }
 .phone-row .phone:nth-child(2) { transform: translateY(-14px); }
 .phone-row .phone:nth-child(2):hover { transform: translateY(-22px) scale(1.02); }
 
