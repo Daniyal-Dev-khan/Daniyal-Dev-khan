@@ -170,6 +170,104 @@ Screenshots:
 
 ---
 
+# WorcX — Contractor Management App
+
+> A native **Jetpack Compose** Android application for Danish construction contractors — manage
+> cases, customers, offers, inspections, suppliers, subscriptions and an AI assistant, end to end.
+> Ported from a React/Figma prototype to a fully native, production-shaped Kotlin codebase.
+
+## 📋 Overview
+
+**WorcX** is a mobile business tool aimed at contractors ("håndværkere") who run their own
+construction/renovation companies. It centralises the daily workflow of a small trade business:
+onboarding a company, tracking jobs from inspection through offer to completion, keeping customer
+records, taking site photos, calculating material CO₂, and unlocking supplier discounts — all behind
+a subscription paywall with an AI assistant layered on top.
+
+The UI is entirely in **Danish** (the target market), while the codebase, class names, routes and
+strings are in **English** by convention. Demo data (names, addresses, brands, `kr.` currency) stays
+Danish as realistic fixtures.
+
+- **Domain:** Contractor / field-service management (B2B SaaS, mobile-first)
+- **Language of the product:** Danish · **Language of the code:** English
+- **Origin:** React + Figma prototype → re-implemented as native Jetpack Compose
+
+---
+
+## ✨ Features & Scope
+
+### Authentication & Onboarding
+
+- **Login** with server-validated credentials and persisted session.
+- **Multi-step signup wizard** with two role paths:
+  - **Owner ("Mester")** — 5 steps: Role → Personal info → Company (CVR lookup auto-fills company
+    details) → Trade ("Fag") → **Plan selection** (fetched live) → **Payment** → Success.
+  - **Employee ("Medarbejder")** — Role → Personal info → Company (CVR resolves an existing
+    company & captures its ID) → Trade → Success. No plan, no payment.
+- **Invitation flow** — join an existing company via an invitation token that verifies the inviting
+  company and prefills the invited email.
+- **Forgot password** — 3-step reset (request code → verify code → set new password) with resend
+  support.
+- Reusable password show/hide toggle; typed, localised error messaging.
+
+### Core Business Modules
+
+- **Home dashboard** — greets the user by full name; shows active cases and quick entry points.
+- **Cases ("Sager")** — list with dynamic status filter chips, plus a rich **Case Detail** screen
+  with tabs:
+  - **Overview**, **Notes** (add notes live), **Finance/Offers**, **CO₂**, **Photos**.
+  - **Inspection ("Besigtigelse")** and **Create Offer ("Tilbud")** sub-flows.
+- **Customers ("Kunder")** — customer list & detail, with active-case counts.
+- **Suppliers / Perks ("Fordele")** — partner supplier list with logos, discounts and a live
+  membership card from saved card details.
+- **Subscription & Payment** — plan catalogue fetched from the backend; card/payment flow (mock +
+  Stripe PaymentSheet integration) that provisions the owner account on success.
+- **WorcX AI assistant** — an overlay assistant with prompt → result phases.
+- **More ("Mere")** — account, settings and secondary destinations.
+
+### Platform Capabilities Wired In
+
+- **Camera & media** capture (CameraX) and gallery picking for site photos.
+- **Voice input** via the system `SpeechRecognizer`; **PDF generation** via `PdfDocument` / Android
+  print.
+- **Responsive layout** that scales proportionally across phone sizes.
+- **Session restore** on splash; automatic sign-out on token expiry.
+
+## 🛠️ Tech Stack
+
+| Category                 | Technology                                                                               |
+|--------------------------|------------------------------------------------------------------------------------------|
+| **Language**             | Kotlin 2.2                                                                               |
+| **UI toolkit**           | Jetpack Compose (BOM 2026.02), Material 3, Material Icons Extended                       |
+| **Architecture**         | MVI + Clean Architecture + Repository pattern                                            |
+| **Dependency Injection** | Hilt 2.59 (+ hilt-navigation-compose)                                                    |
+| **Async**                | Kotlin Coroutines + `StateFlow` / `SharedFlow`                                           |
+| **Navigation**           | Navigation Compose (type-safe routes via kotlinx-serialization)                          |
+| **Networking (REST)**    | Retrofit 2.11 + OkHttp 4.12 + kotlinx-serialization converter                            |
+| **Serialization**        | kotlinx.serialization (JSON)                                                             |
+| **Local storage**        | DataStore Preferences                                                                    |
+| **Images**               | Coil 3 (Ktor 3 as the image engine)                                                      |
+| **Camera / media**       | CameraX + Accompanist Permissions; PhotoPicker                                           |
+| **Voice / PDF**          | System `SpeechRecognizer`, `PdfDocument` / Android print                                 |
+| **Payments**             | Stripe Android SDK (PaymentSheet) + mock flow                                            |
+| **Phone validation**     | libphonenumber (Android port)                                                            |
+| **Responsive units**     | Intuit SDP / SSP (custom hybrid: SDP for layout, `sp` for text)                          |
+| **Background**           | WorkManager (wired)                                                                      |
+| **Logging**              | Kermit · **Network inspector:** Chucker (debug-only)                                     |
+| **Testing**              | JUnit 5 (Jupiter), Turbine, AssertK, kotlinx-coroutines-test, Compose UI test, Hilt test |
+| **Build**                | AGP 9.2, Gradle version catalog, KSP                                                     |
+
+Screenshots:
+<p align="center">
+  <img src="assets/01_auth__login.png" width="230" height="480" />&nbsp;&nbsp;
+  <img src="assets/04_signup__1_role.png" width="230" height="480" />&nbsp;&nbsp;
+  <img src="assets/08_app__tab_1_hjem_home.png" width="230" height="480" />&nbsp;&nbsp;
+  <img src="assets/11_besigtigelse__1_info.png" width="230" height="480" />
+</p>
+
+
+---
+
 # Unlimit Key – Retail Access & Store Companion App
 
 Unlimit Key is a smart retail access app that allows users to discover nearby shops, check timings,
